@@ -6,29 +6,41 @@ Internet retail, also known as e-commerce, plays a significant role within the e
 
 ## Installation
 
-Due to the fact that there is no "front end" to this particular application, you must be running it in VS Code. Please ensure that you have initialized and started your server as well as the database to so you will need mysql on your machine. 
+Due to the fact that there is no "front end" to this particular application, you must be running it in VS Code. Please ensure that you have initialized and started your server as well as the database so you will need mysql on your machine. 
 in CLI type the following
 > mysql -uroot -p
-> password: "type your password here"
+> password: "Type your password here"
 > source db/schema.sql;
-> source db/seeds.sql;
 > exit
 
-You will be back in the VSCode command line and can type npm start to get the server up and going. Once this has been completed you can then use Insomnia (or other software of your choosing) to view the outcome of the routes chosen. 
+You will be back in the VSCode command line.
+
+To seed the database in the CLI
+node seeds/index.js
+
+Now you will need to start the server 
+
+npm start
+
+
 
 ## Videos 
 
-### Video of code for the models
+### Video of route testing
 
-https://bootcampspot.instructuremedia.com/embed/48808534-2f95-4095-b597-86a65fa624aa
+https://bootcampspot.instructuremedia.com/embed/bf4b864c-ef6c-4ebf-b783-eea663b52a84
 
-### Video of code for the routes
+### Video of starting server
 
-https://bootcampspot.instructuremedia.com/embed/ab7fc82e-dc6c-49ec-a236-a0e7b0546903
+https://bootcampspot.instructuremedia.com/embed/177307f4-8a29-4045-b4a2-afbe1ab9fff3
 
-### Video of selected tested routes in Insomnia
+### Video of seeding the database
 
-https://bootcampspot.instructuremedia.com/embed/f5b378dc-ad20-4b9e-8d89-83681a1a499d
+https://bootcampspot.instructuremedia.com/embed/01eda764-d577-4871-a1f7-1e5085b8c701
+
+### Video of starting MySQL
+
+https://bootcampspot.instructuremedia.com/embed/3087c1b7-2901-44a7-b1ab-527459f91d9f
 
 ## GitHub Link to the repo for this assignment
 
